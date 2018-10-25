@@ -3,4 +3,4 @@
   remote_user: ansible
   tasks:
     - name: Run a script with arguments
-      script: /opt/proceso1.sh
+      shell: /opt/proceso1.sh >> /home/ansible/somelog.txt
