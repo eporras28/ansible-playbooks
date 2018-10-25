@@ -1,5 +1,4 @@
 - name: Procesos PHP
-  hosts: all
   tasks:
     - name: Run a script with arguments
       script: /opt/proceso1.sh
