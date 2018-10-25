@@ -4,3 +4,5 @@
   tasks:
     - name: Run a script with arguments
       shell: /opt/proceso1.sh >> /home/ansible/somelog.txt
+      args:
+       chdir: /opt/
